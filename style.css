@@ -21,6 +21,9 @@ body {
     display: flex;
     flex: 1;
 }
+#nav {
+      background-color: #998c8c;
+}
 
 #nav .list-example {
     
