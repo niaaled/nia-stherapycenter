@@ -19,7 +19,7 @@ body {
 
 #content-wrapper {
     display: flex;
-    flex: 1;
+    flex: 10px;
 }
 #nav {
       background-color: #998c8c;
