@@ -27,16 +27,16 @@ body {
     text-align: center; /* Centers the navigation links horizontally */
 }
 #nav .list-example {
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    justify-content: center; 
-    gap: 20px; 
+    #nav .list-example {
+    list-style-type: none; /* Removes default bullet points */
+    margin: 20;
+    padding: 20;
+    justify-content: center; /* Centers the navigation links */
+    gap: 50px; /* Adds spacing between links */
 }
 
 #nav .list-example li {
-    margin: 0;
+    margin: 50;
 }
 
 #nav .list-example li a {
