@@ -22,38 +22,46 @@ body {
     flex: 1;
 }
 
-#nav {
-    background-color: #f4f4f4; /* Light background for contrast */
-    padding: 1rem;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
-}
-
-#nav .list-example {
-    list-style-type: none; /* Removes default bullet points */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Aligns items horizontally */
-    justify-content: center; /* Centers the navigation links */
-    gap: 20px; /* Adds spacing between links */
-}
-
-#nav .list-example li {
-    margin: 0;
-}
-
-#nav .list-example li a {
-    text-decoration: none; /* Removes underline from links */
-    color: #333; /* Neutral text color */
-    font-weight: bold; /* Makes links stand out */
-    padding: 0.5rem 1rem; /* Adds padding for clickable area */
-    border-radius: 5px; /* Rounds corners for a modern look */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-}
-
-#nav .list-example li a:hover {
-    background-color: #457b9d; /* Deep blue background on hover */
-    color: white; /* White text on hover */
-}
+  nav .list-example {
+            
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #c9b0ad;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav .list-example li {
+            margin: 10px 20px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        nav .list-example li::before {
+        
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+            font-size: 1.2em;
+            line-height: 1;
+        }
+        
+        nav .list-example a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: fantasy, sans-serif;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        nav .list-example a:hover {
+            color: #796262;
+        }
 
 
 #section {
