@@ -22,10 +22,8 @@ body {
     flex: 1;
 }
 #nav {
-    background-color: #f4f4f4; /* Light background for contrast */
-    padding: 1rem;
-    text-align: center; /* Centers the navigation links horizontally */
-}
+    background-color:#743939
+        }
 #nav .list-example {
     #nav .list-example {
     list-style-type: none; /* Removes default bullet points */
@@ -56,6 +54,7 @@ body {
 
 
 #section {
+    background-color:8a9473
     flex: 1;
     padding: 1rem;
 }
