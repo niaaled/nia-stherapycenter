@@ -32,7 +32,7 @@ body {
     justify-content: center; /* Centers the navigation links */
     gap: 50px; /* Adds spacing between links */
 }
-
+}
 #nav .list-example li {
     margin: 50;
 }
@@ -54,7 +54,7 @@ body {
 
 
 #section {
-    background-color:8a9473
+    background-color:#8a9473
     flex: 1;
     padding: 1rem;
 }
@@ -87,4 +87,4 @@ aside {
     padding: 1rem;
 }
 
-        
+             
