@@ -54,9 +54,9 @@ body {
 
 
 #section {
-    background-color:#8a9473
+    background-color: rgb(127, 127, 127);
     flex: 1;
-    padding: 1rem;
+    padding: 4rem;
 }
 
 .list-example {
@@ -77,7 +77,7 @@ aside {
     background-color: #e9f2fd;
     border-left: 4px solid #4a90e2;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #footer {
@@ -87,4 +87,4 @@ aside {
     padding: 1rem;
 }
 
-             
+        
